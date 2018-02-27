@@ -1,5 +1,3 @@
-
-
 class Todo {
   constructor () {
     this.db = JSON.parse( localStorage.getItem('todos') ) || [];

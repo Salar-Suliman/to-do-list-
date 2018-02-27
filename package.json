@@ -11,16 +11,15 @@
     "webpack": "^4.0.1"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
     "webpack-cli": "^2.0.9"
   },
   "scripts": {
-    
-     "watch": "webpack-cli --watch",
-     "clean": "rm -fr ./dist",
-     "build": "webpack-cli"
-
+    "watch": "webpack-cli --watch",
+    "clean": "rm -fr ./dist",
+    "build": "webpack-cli"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oliverwebr/dci-fbw6-todolist.git"

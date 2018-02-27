@@ -1,0 +1,34 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "- Add tasks - task -> maked as done - task -> delete",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "i": "^0.3.6",
+    "jquery": "^1.12.4",
+    "popper.js": "^1.12.9",
+    "webpack": "^4.0.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.9"
+  },
+  "scripts": {
+    
+     "watch": "webpack-cli --watch",
+     "clean": "rm -fr ./dist",
+     "build": "webpack-cli"
+
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliverwebr/dci-fbw6-todolist.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliverwebr/dci-fbw6-todolist/issues"
+  },
+  "homepage": "https://github.com/oliverwebr/dci-fbw6-todolist#readme"
+}
